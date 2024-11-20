@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ExampleAppConfig(AppConfig):
+class IdCheckConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'example_app'
+    name = 'id_check'

@@ -1,16 +1,16 @@
 """
-ASGI config for defang_sample project.
+ASGI config for sa_id_checker project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
 For more information on this file, see
-https://docs.djangoproject.com/en/5.0/howto/deployment/asgi/
+https://docs.djangoproject.com/en/3.2/howto/deployment/asgi/
 """
 
 import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'defang_sample.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sa_id_checker.settings')
 
 application = get_asgi_application()
